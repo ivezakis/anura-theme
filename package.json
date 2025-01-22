@@ -2,8 +2,12 @@
     "name": "anura-theme",
     "displayName": "Anura Theme",
     "description": "Anura dark theme for VS Code",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "ivezakis",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ivezakis/anura-theme"
+    },
     "engines": {
         "vscode": "^1.85.0"
     },
