@@ -1,7 +1,7 @@
 {
     "name": "anura-theme",
-    "displayName": "Anura Theme",
-    "description": "Anura dark theme for VS Code",
+    "displayName": "CotEditor Anura Theme",
+    "description": "VS Code port of CotEditor's Anura dark theme",
     "version": "1.0.0",
     "publisher": "ivezakis",
     "repository": {
@@ -17,7 +17,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Anura",
+                "label": "CotEditor Anura",
                 "uiTheme": "vs-dark",
                 "path": "./themes/anura-color-theme.json"
             }
