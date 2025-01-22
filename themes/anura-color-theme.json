@@ -1,0 +1,117 @@
+{
+  "name": "Anura",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#292a2f",
+    "editor.foreground": "#f5f6ea",
+    "editor.selectionBackground": "#393939",
+    "editor.lineHighlightBackground": "#393939",
+    "editorCursor.foreground": "#ffffff",
+    "editorWhitespace.foreground": "#555555",
+    "editorIndentGuide.background": "#555555",
+    "editorGutter.background": "#292a2f",
+    "editorGutter.modifiedBackground": "#eb4c2f",
+    "editorGutter.addedBackground": "#b5ff00",
+    "editorGutter.deletedBackground": "#e53654"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#808080"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#4d92ab"
+      }
+    },
+    {
+      "scope": ["string", "string.template"],
+      "settings": {
+        "foreground": "#90ad65"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language", "constant.character.escape"],
+      "settings": {
+        "foreground": "#a97dd1"
+      }
+    },
+    {
+      "scope": ["variable", "variable.language"],
+      "settings": {
+        "foreground": "#84d2d1"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#d278a1"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "support.type"],
+      "settings": {
+        "foreground": "#ed734c"
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#4d92ab"
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#d278a1"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.string"],
+      "settings": {
+        "foreground": "#90ad65"
+      }
+    },
+    {
+      "scope": ["markup.bold"],
+      "settings": {
+        "foreground": "#eb4c2f",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.italic"],
+      "settings": {
+        "foreground": "#b68efa",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#52b4f9"
+      }
+    },
+    {
+      "scope": ["markup.inserted"],
+      "settings": {
+        "foreground": "#b5ff00"
+      }
+    },
+    {
+      "scope": ["markup.deleted"],
+      "settings": {
+        "foreground": "#e53654"
+      }
+    },
+    {
+      "scope": ["markup.changed"],
+      "settings": {
+        "foreground": "#b68efa"
+      }
+    }
+  ]
+}
