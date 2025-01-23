@@ -2,7 +2,7 @@
     "name": "anura-theme",
     "displayName": "CotEditor Anura Theme",
     "description": "VS Code port of CotEditor's Anura dark theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "ivezakis",
     "repository": {
         "type": "git",
