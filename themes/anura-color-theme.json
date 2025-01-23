@@ -8,8 +8,8 @@
     "editor.lineHighlightBackground": "#333333b3",
     "editorCursor.foreground": "#5DA810",
     "editorWhitespace.foreground": "#555555",
-    "editorIndentGuide.background": "#555555",
-    "editorIndentGuide.activeBackground": "#666666",
+    "editorIndentGuide.background1": "#555555",
+    "editorIndentGuide.activeBackground1": "#666666",
     
     "editorLineNumber.foreground": "#808080",
     "editorLineNumber.activeForeground": "#a8a8a8",
@@ -83,9 +83,23 @@
     "scrollbarSlider.hoverBackground": "#5D5D5D80",
     "scrollbarSlider.activeBackground": "#6D6D6D80",
     
-    "editorGutter.modifiedBackground": "#eb4c2f",
-    "editorGutter.addedBackground": "#b5ff00",
-    "editorGutter.deletedBackground": "#e53654"
+    // Git decorations
+    "gitDecoration.modifiedResourceForeground": "#e2c08d", 
+    "gitDecoration.addedResourceForeground": "#73c991",
+    "gitDecoration.deletedResourceForeground": "#f14c4c",
+    "gitDecoration.untrackedResourceForeground": "#73c991",
+    "gitDecoration.ignoredResourceForeground": "#6c6c6c",
+    
+    // Git diff editor colors
+    "diffEditor.insertedTextBackground": "#9ccc2c26",
+    "diffEditor.removedTextBackground": "#ff000026",
+    "diffEditor.insertedLineBackground": "#9ccc2c1a",
+    "diffEditor.removedLineBackground": "#ff00001a",
+    
+    // Git gutter indicators
+    "editorGutter.modifiedBackground": "#e2c08d",
+    "editorGutter.addedBackground": "#73c991",
+    "editorGutter.deletedBackground": "#f14c4c"
   },
   "tokenColors": [
     {
@@ -119,7 +133,14 @@
       }
     },
     {
-      "scope": ["variable", "variable.language"],
+      "scope": [
+        "variable",
+        "variable.language",
+        "variable.parameter",
+        "variable.other",
+        "meta.function-call.arguments",
+        "meta.function-call.python variable.other.readwrite.python"
+      ],
       "settings": {
         "foreground": "#75C9C6"
       }
@@ -131,7 +152,31 @@
       }
     },
     {
-      "scope": ["entity.name.function", "support.function", "keyword.other"],
+      "scope": [
+        // Generic function scopes
+        "entity.name.function",
+        "support.function",
+        "meta.function",
+        "meta.function-call",
+        "meta.method",
+        // Language-specific function scopes
+        "meta.function-call.python",
+        "meta.function.python",
+        "meta.method.python",
+        "meta.function.js",
+        "meta.function-call.js",
+        "meta.method.js",
+        "meta.function.java",
+        "meta.method.java",
+        "meta.function.c",
+        "meta.function-call.c",
+        "meta.function.cpp",
+        "meta.function-call.cpp",
+        "entity.name.function.member.cpp",
+        "meta.function.rust",
+        "meta.function-call.rust",
+        "entity.name.function.rust"
+      ],
       "settings": {
         "foreground": "#D4A046"
       }
