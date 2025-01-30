@@ -8,7 +8,7 @@
         "type": "git",
         "url": "https://github.com/ivezakis/anura-theme"
     },
-    "icon": "icon.svg",
+    "icon": "anura-logo.png",
     "engines": {
         "vscode": "^1.85.0"
     },
