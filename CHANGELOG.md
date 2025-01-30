@@ -1,5 +1,8 @@
 # Change Log
 
+## [1.0.2] - 2025-01-30
+- Add icon
+
 ## [1.0.1] - 2025-01-23
 ### Fixed
 - Improved function and variable coloring

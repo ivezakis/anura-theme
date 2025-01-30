@@ -2,6 +2,8 @@
 
 A Visual Studio Code port of CotEditor's Anura theme, bringing its clean dark aesthetics and carefully selected color palette to VS Code.
 
+![Theme Screenshot](screenshot.png)
+
 ## Features
 
 - Dark theme optimized for readability
