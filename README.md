@@ -1,14 +1,15 @@
 # CotEditor Anura Theme for VS Code
 
-A Visual Studio Code port of CotEditor's Anura theme, bringing its clean dark aesthetics and carefully selected color palette to VS Code.
+A Visual Studio Code port of CotEditor's Anura theme, bringing its clean aesthetics and carefully selected color palette to VS Code — in both a dark and a light variant.
 
 ![Theme Screenshot](screenshot.png)
 
 ## Features
 
-- Dark theme optimized for readability
+- Dark and light themes based on the Anura palette
 - Consistent UI elements styling
-- Green cursor matching CotEditor for better visibility
+- Light variant matches the Anura light palette
+- Follows your system color scheme automatically
 
 ## Installation
 
@@ -21,7 +22,9 @@ A Visual Studio Code port of CotEditor's Anura theme, bringing its clean dark ae
 
 1. Open VS Code Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
 2. Type `Color Theme`
-3. Select `CotEditor Anura`
+3. Select `CotEditor Anura Dark` or `CotEditor Anura Light`
+
+To have VS Code follow your system light/dark setting, enable `window.autoDetectColorScheme`.
 
 ## Credits
 

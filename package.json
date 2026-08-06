@@ -1,8 +1,8 @@
 {
     "name": "anura-theme",
     "displayName": "CotEditor Anura Theme",
-    "description": "VS Code port of CotEditor's Anura dark theme",
-    "version": "1.0.2",
+    "description": "VS Code port of CotEditor's Anura theme with dark and light variants",
+    "version": "1.1.0",
     "publisher": "ivezakis",
     "repository": {
         "type": "git",
@@ -18,9 +18,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "CotEditor Anura",
+                "label": "CotEditor Anura Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/anura-color-theme.json"
+            },
+            {
+                "label": "CotEditor Anura Light",
+                "uiTheme": "vs",
+                "path": "./themes/anura-light-color-theme.json"
             }
         ]
     }
