@@ -1,5 +1,5 @@
 {
-  "name": "Anura",
+  "name": "Anura Dark",
   "type": "dark",
   "colors": {
     "editor.background": "#292929",
@@ -12,8 +12,8 @@
     "editorIndentGuide.activeBackground1": "#666666",
     
     "editorLineNumber.foreground": "#808080",
-    "editorLineNumber.activeForeground": "#a8a8a8",
-    "editorGutter.background": "#252525",
+    "editorLineNumber.activeForeground": "#e5e5e5",
+    "editorGutter.background": "#292929",
     
     "activityBar.background": "#252525",
     "activityBar.foreground": "#D4D4D4",
@@ -82,6 +82,28 @@
     "scrollbarSlider.background": "#4D4D4D80",
     "scrollbarSlider.hoverBackground": "#5D5D5D80",
     "scrollbarSlider.activeBackground": "#6D6D6D80",
+    
+    // Terminal (Anura dark palette)
+    "terminal.background": "#252525",
+    "terminal.foreground": "#e5e5e5",
+    "terminalCursor.foreground": "#a8a8a8",
+    "terminal.selectionBackground": "#a7caff",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiRed": "#f26669",
+    "terminal.ansiGreen": "#90ad65",
+    "terminal.ansiYellow": "#d4a046",
+    "terminal.ansiBlue": "#5199b3",
+    "terminal.ansiMagenta": "#c76090",
+    "terminal.ansiCyan": "#75c9c6",
+    "terminal.ansiWhite": "#e5e5e5",
+    "terminal.ansiBrightBlack": "#808080",
+    "terminal.ansiBrightRed": "#ed734c",
+    "terminal.ansiBrightGreen": "#9cd936",
+    "terminal.ansiBrightYellow": "#d4a046",
+    "terminal.ansiBrightBlue": "#5199b3",
+    "terminal.ansiBrightMagenta": "#a97dd1",
+    "terminal.ansiBrightCyan": "#75c9c6",
+    "terminal.ansiBrightWhite": "#fafafa",
     
     // Git decorations
     "gitDecoration.modifiedResourceForeground": "#e2c08d", 

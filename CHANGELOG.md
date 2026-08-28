@@ -1,5 +1,15 @@
 # Change Log
 
+## [1.1.0] - 2026-08-06
+### Added
+- Anura Light theme
+  - Light variant built from the Anura light palette
+  - Same token role mapping and UI structure as the dark theme
+  - Registers as `uiTheme: vs` so it follows the system light/dark toggle
+- Integrated terminal ANSI colors in both themes now match the Anura palettes; terminal background blends with the workbench panels
+- Line number gutter now matches the editor background in both themes
+- Active line number uses the plain text color; inactive line numbers use the comment color (dark) or a lighter neutral gray (light)
+
 ## [1.0.2] - 2025-01-30
 - Add icon
 
